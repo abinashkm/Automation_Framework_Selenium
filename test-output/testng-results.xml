@@ -1,0 +1,1514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="0" failed="0" skipped="15">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-09T20:06:02 IST" name="SwagLabsParallelSuite" finished-at="2026-04-09T20:06:02 IST" duration-ms="37">
+    <groups>
+      <group name="negative">
+        <method signature="NegativeFlowTest.checkoutShouldValidateRequiredFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.NegativeFlowTest@7bedc48a]" name="checkoutShouldValidateRequiredFields" class="tests.NegativeFlowTest"/>
+        <method signature="NegativeFlowTest.invalidLoginShouldShowHelpfulError(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.NegativeFlowTest@7bedc48a]" name="invalidLoginShouldShowHelpfulError" class="tests.NegativeFlowTest"/>
+      </group> <!-- negative -->
+      <group name="regression">
+        <method signature="CheckoutAndMenuTest.userCanCompleteCheckoutSuccessfully()[pri:0, instance:tests.CheckoutAndMenuTest@131ef10]" name="userCanCompleteCheckoutSuccessfully" class="tests.CheckoutAndMenuTest"/>
+        <method signature="CheckoutAndMenuTest.userCanLogoutAndReturnToLoginPage()[pri:0, instance:tests.CheckoutAndMenuTest@131ef10]" name="userCanLogoutAndReturnToLoginPage" class="tests.CheckoutAndMenuTest"/>
+        <method signature="InventoryTest.userCanAddMultipleProductsToCart()[pri:0, instance:tests.InventoryTest@6c40365c]" name="userCanAddMultipleProductsToCart" class="tests.InventoryTest"/>
+        <method signature="InventoryTest.userCanRemoveProductFromCart()[pri:0, instance:tests.InventoryTest@6c40365c]" name="userCanRemoveProductFromCart" class="tests.InventoryTest"/>
+        <method signature="InventoryTest.userCanReviewProductsInCart()[pri:0, instance:tests.InventoryTest@6c40365c]" name="userCanReviewProductsInCart" class="tests.InventoryTest"/>
+        <method signature="InventoryTest.userCanSortProductsByPriceLowToHigh()[pri:0, instance:tests.InventoryTest@6c40365c]" name="userCanSortProductsByPriceLowToHigh" class="tests.InventoryTest"/>
+        <method signature="LoginTest.validLoginShouldNavigateToInventoryPage()[pri:0, instance:tests.LoginTest@4116aac9]" name="validLoginShouldNavigateToInventoryPage" class="tests.LoginTest"/>
+        <method signature="NegativeFlowTest.checkoutShouldValidateRequiredFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.NegativeFlowTest@7bedc48a]" name="checkoutShouldValidateRequiredFields" class="tests.NegativeFlowTest"/>
+        <method signature="NegativeFlowTest.invalidLoginShouldShowHelpfulError(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.NegativeFlowTest@7bedc48a]" name="invalidLoginShouldShowHelpfulError" class="tests.NegativeFlowTest"/>
+      </group> <!-- regression -->
+      <group name="happy-path">
+        <method signature="CheckoutAndMenuTest.userCanCompleteCheckoutSuccessfully()[pri:0, instance:tests.CheckoutAndMenuTest@131ef10]" name="userCanCompleteCheckoutSuccessfully" class="tests.CheckoutAndMenuTest"/>
+        <method signature="CheckoutAndMenuTest.userCanLogoutAndReturnToLoginPage()[pri:0, instance:tests.CheckoutAndMenuTest@131ef10]" name="userCanLogoutAndReturnToLoginPage" class="tests.CheckoutAndMenuTest"/>
+        <method signature="InventoryTest.userCanAddMultipleProductsToCart()[pri:0, instance:tests.InventoryTest@6c40365c]" name="userCanAddMultipleProductsToCart" class="tests.InventoryTest"/>
+        <method signature="InventoryTest.userCanRemoveProductFromCart()[pri:0, instance:tests.InventoryTest@6c40365c]" name="userCanRemoveProductFromCart" class="tests.InventoryTest"/>
+        <method signature="InventoryTest.userCanReviewProductsInCart()[pri:0, instance:tests.InventoryTest@6c40365c]" name="userCanReviewProductsInCart" class="tests.InventoryTest"/>
+        <method signature="InventoryTest.userCanSortProductsByPriceLowToHigh()[pri:0, instance:tests.InventoryTest@6c40365c]" name="userCanSortProductsByPriceLowToHigh" class="tests.InventoryTest"/>
+        <method signature="LoginTest.validLoginShouldNavigateToInventoryPage()[pri:0, instance:tests.LoginTest@4116aac9]" name="validLoginShouldNavigateToInventoryPage" class="tests.LoginTest"/>
+      </group> <!-- happy-path -->
+      <group name="smoke">
+        <method signature="CheckoutAndMenuTest.userCanCompleteCheckoutSuccessfully()[pri:0, instance:tests.CheckoutAndMenuTest@131ef10]" name="userCanCompleteCheckoutSuccessfully" class="tests.CheckoutAndMenuTest"/>
+        <method signature="CheckoutAndMenuTest.userCanLogoutAndReturnToLoginPage()[pri:0, instance:tests.CheckoutAndMenuTest@131ef10]" name="userCanLogoutAndReturnToLoginPage" class="tests.CheckoutAndMenuTest"/>
+        <method signature="InventoryTest.userCanAddMultipleProductsToCart()[pri:0, instance:tests.InventoryTest@6c40365c]" name="userCanAddMultipleProductsToCart" class="tests.InventoryTest"/>
+        <method signature="LoginTest.validLoginShouldNavigateToInventoryPage()[pri:0, instance:tests.LoginTest@4116aac9]" name="validLoginShouldNavigateToInventoryPage" class="tests.LoginTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-04-09T20:06:02 IST" name="Swag Labs Regression" finished-at="2026-04-09T20:06:02 IST" duration-ms="37">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@4116aac9]" started-at="2026-04-09T20:06:02 IST" name="setup" finished-at="2026-04-09T20:06:02 IST" duration-ms="21" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to find a free port]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to find a free port
+at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:138)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at utils.DriverFactory.initializeDriver(DriverFactory.java:24)
+at base.BaseTest.setup(BaseTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLoginShouldNavigateToInventoryPage()[pri:0, instance:tests.LoginTest@4116aac9]" started-at="2026-04-09T20:06:02 IST" name="validLoginShouldNavigateToInventoryPage" description="Valid users should be able to log in and land on the inventory page." finished-at="2026-04-09T20:06:02 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to find a free port]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to find a free port
+at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:138)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at utils.DriverFactory.initializeDriver(DriverFactory.java:24)
+at base.BaseTest.setup(BaseTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginShouldNavigateToInventoryPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@4116aac9]" started-at="2026-04-09T20:06:02 IST" name="teardown" finished-at="2026-04-09T20:06:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.NegativeFlowTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.NegativeFlowTest@7bedc48a]" started-at="2026-04-09T20:06:02 IST" name="setup" finished-at="2026-04-09T20:06:02 IST" duration-ms="19" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to find a free port]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to find a free port
+at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:138)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at utils.DriverFactory.initializeDriver(DriverFactory.java:24)
+at base.BaseTest.setup(BaseTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.NegativeFlowTest@7bedc48a]" started-at="2026-04-09T20:06:02 IST" name="setup" finished-at="2026-04-09T20:06:02 IST" duration-ms="19" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to find a free port]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to find a free port
+at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:138)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at utils.DriverFactory.initializeDriver(DriverFactory.java:24)
+at base.BaseTest.setup(BaseTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.NegativeFlowTest@7bedc48a]" started-at="2026-04-09T20:06:02 IST" name="setup" finished-at="2026-04-09T20:06:02 IST" duration-ms="19" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to find a free port]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to find a free port
+at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:138)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at utils.DriverFactory.initializeDriver(DriverFactory.java:24)
+at base.BaseTest.setup(BaseTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkoutShouldValidateRequiredFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.NegativeFlowTest@7bedc48a]" started-at="2026-04-09T20:06:02 IST" name="checkoutShouldValidateRequiredFields" description="Checkout form should block continuation when a required field is missing." data-provider="invalidCheckoutData" finished-at="2026-04-09T20:06:02 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Patel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[751001]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Error: First Name is required]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to find a free port]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to find a free port
+at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:138)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at utils.DriverFactory.initializeDriver(DriverFactory.java:24)
+at base.BaseTest.setup(BaseTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutShouldValidateRequiredFields -->
+        <test-method signature="checkoutShouldValidateRequiredFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.NegativeFlowTest@7bedc48a]" started-at="2026-04-09T20:06:02 IST" name="checkoutShouldValidateRequiredFields" description="Checkout form should block continuation when a required field is missing." data-provider="invalidCheckoutData" finished-at="2026-04-09T20:06:02 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abinash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Patel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Error: Postal Code is required]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to find a free port]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to find a free port
+at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:138)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at utils.DriverFactory.initializeDriver(DriverFactory.java:24)
+at base.BaseTest.setup(BaseTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutShouldValidateRequiredFields -->
+        <test-method signature="checkoutShouldValidateRequiredFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.NegativeFlowTest@7bedc48a]" started-at="2026-04-09T20:06:02 IST" name="checkoutShouldValidateRequiredFields" description="Checkout form should block continuation when a required field is missing." data-provider="invalidCheckoutData" finished-at="2026-04-09T20:06:02 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abinash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[751001]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Error: Last Name is required]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to find a free port]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to find a free port
+at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:138)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at utils.DriverFactory.initializeDriver(DriverFactory.java:24)
+at base.BaseTest.setup(BaseTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutShouldValidateRequiredFields -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.NegativeFlowTest@7bedc48a]" started-at="2026-04-09T20:06:02 IST" name="teardown" finished-at="2026-04-09T20:06:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.NegativeFlowTest@7bedc48a]" started-at="2026-04-09T20:06:02 IST" name="teardown" finished-at="2026-04-09T20:06:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.NegativeFlowTest@7bedc48a]" started-at="2026-04-09T20:06:02 IST" name="teardown" finished-at="2026-04-09T20:06:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="invalidLoginShouldShowHelpfulError(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.NegativeFlowTest@7bedc48a]" started-at="2026-04-09T20:06:02 IST" name="invalidLoginShouldShowHelpfulError" description="Invalid login combinations should show the correct error message." data-provider="invalidLoginUsers" finished-at="2026-04-09T20:06:02 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong_password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to find a free port]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to find a free port
+at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:138)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at utils.DriverFactory.initializeDriver(DriverFactory.java:24)
+at base.BaseTest.setup(BaseTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginShouldShowHelpfulError -->
+        <test-method signature="invalidLoginShouldShowHelpfulError(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.NegativeFlowTest@7bedc48a]" started-at="2026-04-09T20:06:02 IST" name="invalidLoginShouldShowHelpfulError" description="Invalid login combinations should show the correct error message." data-provider="invalidLoginUsers" finished-at="2026-04-09T20:06:02 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to find a free port]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to find a free port
+at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:138)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at utils.DriverFactory.initializeDriver(DriverFactory.java:24)
+at base.BaseTest.setup(BaseTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginShouldShowHelpfulError -->
+        <test-method signature="invalidLoginShouldShowHelpfulError(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.NegativeFlowTest@7bedc48a]" started-at="2026-04-09T20:06:02 IST" name="invalidLoginShouldShowHelpfulError" description="Invalid login combinations should show the correct error message." data-provider="invalidLoginUsers" finished-at="2026-04-09T20:06:02 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Sorry, this user has been locked out.]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to find a free port]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to find a free port
+at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:138)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at utils.DriverFactory.initializeDriver(DriverFactory.java:24)
+at base.BaseTest.setup(BaseTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginShouldShowHelpfulError -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.NegativeFlowTest@7bedc48a]" started-at="2026-04-09T20:06:02 IST" name="teardown" finished-at="2026-04-09T20:06:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.NegativeFlowTest@7bedc48a]" started-at="2026-04-09T20:06:02 IST" name="teardown" finished-at="2026-04-09T20:06:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.NegativeFlowTest@7bedc48a]" started-at="2026-04-09T20:06:02 IST" name="setup" finished-at="2026-04-09T20:06:02 IST" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to find a free port]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to find a free port
+at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:138)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at utils.DriverFactory.initializeDriver(DriverFactory.java:24)
+at base.BaseTest.setup(BaseTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.NegativeFlowTest@7bedc48a]" started-at="2026-04-09T20:06:02 IST" name="setup" finished-at="2026-04-09T20:06:02 IST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to find a free port]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to find a free port
+at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:138)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at utils.DriverFactory.initializeDriver(DriverFactory.java:24)
+at base.BaseTest.setup(BaseTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.NegativeFlowTest@7bedc48a]" started-at="2026-04-09T20:06:02 IST" name="setup" finished-at="2026-04-09T20:06:02 IST" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to find a free port]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to find a free port
+at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:138)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at utils.DriverFactory.initializeDriver(DriverFactory.java:24)
+at base.BaseTest.setup(BaseTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.NegativeFlowTest@7bedc48a]" started-at="2026-04-09T20:06:02 IST" name="setup" finished-at="2026-04-09T20:06:02 IST" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to find a free port]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to find a free port
+at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:138)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at utils.DriverFactory.initializeDriver(DriverFactory.java:24)
+at base.BaseTest.setup(BaseTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.NegativeFlowTest@7bedc48a]" started-at="2026-04-09T20:06:02 IST" name="setup" finished-at="2026-04-09T20:06:02 IST" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to find a free port]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to find a free port
+at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:138)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at utils.DriverFactory.initializeDriver(DriverFactory.java:24)
+at base.BaseTest.setup(BaseTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidLoginShouldShowHelpfulError(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.NegativeFlowTest@7bedc48a]" started-at="2026-04-09T20:06:02 IST" name="invalidLoginShouldShowHelpfulError" description="Invalid login combinations should show the correct error message." data-provider="invalidLoginUsers" finished-at="2026-04-09T20:06:02 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Password is required]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to find a free port]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to find a free port
+at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:138)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at utils.DriverFactory.initializeDriver(DriverFactory.java:24)
+at base.BaseTest.setup(BaseTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginShouldShowHelpfulError -->
+        <test-method signature="invalidLoginShouldShowHelpfulError(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.NegativeFlowTest@7bedc48a]" started-at="2026-04-09T20:06:02 IST" name="invalidLoginShouldShowHelpfulError" description="Invalid login combinations should show the correct error message." data-provider="invalidLoginUsers" finished-at="2026-04-09T20:06:02 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username is required]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to find a free port]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to find a free port
+at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:138)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at utils.DriverFactory.initializeDriver(DriverFactory.java:24)
+at base.BaseTest.setup(BaseTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginShouldShowHelpfulError -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.NegativeFlowTest@7bedc48a]" started-at="2026-04-09T20:06:02 IST" name="teardown" finished-at="2026-04-09T20:06:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.NegativeFlowTest@7bedc48a]" started-at="2026-04-09T20:06:02 IST" name="teardown" finished-at="2026-04-09T20:06:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.NegativeFlowTest@7bedc48a]" started-at="2026-04-09T20:06:02 IST" name="teardown" finished-at="2026-04-09T20:06:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.NegativeFlowTest -->
+      <class name="tests.InventoryTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.InventoryTest@6c40365c]" started-at="2026-04-09T20:06:02 IST" name="setup" finished-at="2026-04-09T20:06:02 IST" duration-ms="21" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to find a free port]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to find a free port
+at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:138)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at utils.DriverFactory.initializeDriver(DriverFactory.java:24)
+at base.BaseTest.setup(BaseTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="userCanAddMultipleProductsToCart()[pri:0, instance:tests.InventoryTest@6c40365c]" started-at="2026-04-09T20:06:02 IST" name="userCanAddMultipleProductsToCart" description="Users should be able to add multiple products and see the cart badge update." finished-at="2026-04-09T20:06:02 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to find a free port]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to find a free port
+at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:138)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at utils.DriverFactory.initializeDriver(DriverFactory.java:24)
+at base.BaseTest.setup(BaseTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanAddMultipleProductsToCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.InventoryTest@6c40365c]" started-at="2026-04-09T20:06:02 IST" name="teardown" finished-at="2026-04-09T20:06:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="userCanRemoveProductFromCart()[pri:0, instance:tests.InventoryTest@6c40365c]" started-at="2026-04-09T20:06:02 IST" name="userCanRemoveProductFromCart" description="Users should be able to remove a product from the cart and keep the remaining item." finished-at="2026-04-09T20:06:02 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to find a free port]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to find a free port
+at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:138)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at utils.DriverFactory.initializeDriver(DriverFactory.java:24)
+at base.BaseTest.setup(BaseTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanRemoveProductFromCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.InventoryTest@6c40365c]" started-at="2026-04-09T20:06:02 IST" name="teardown" finished-at="2026-04-09T20:06:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.InventoryTest@6c40365c]" started-at="2026-04-09T20:06:02 IST" name="setup" finished-at="2026-04-09T20:06:02 IST" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to find a free port]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to find a free port
+at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:138)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at utils.DriverFactory.initializeDriver(DriverFactory.java:24)
+at base.BaseTest.setup(BaseTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.InventoryTest@6c40365c]" started-at="2026-04-09T20:06:02 IST" name="setup" finished-at="2026-04-09T20:06:02 IST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to find a free port]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to find a free port
+at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:138)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at utils.DriverFactory.initializeDriver(DriverFactory.java:24)
+at base.BaseTest.setup(BaseTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="userCanReviewProductsInCart()[pri:0, instance:tests.InventoryTest@6c40365c]" started-at="2026-04-09T20:06:02 IST" name="userCanReviewProductsInCart" description="Users should be able to open the cart and verify the selected products." finished-at="2026-04-09T20:06:02 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to find a free port]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to find a free port
+at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:138)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at utils.DriverFactory.initializeDriver(DriverFactory.java:24)
+at base.BaseTest.setup(BaseTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanReviewProductsInCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.InventoryTest@6c40365c]" started-at="2026-04-09T20:06:02 IST" name="teardown" finished-at="2026-04-09T20:06:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.InventoryTest@6c40365c]" started-at="2026-04-09T20:06:02 IST" name="setup" finished-at="2026-04-09T20:06:02 IST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to find a free port]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to find a free port
+at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:138)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at utils.DriverFactory.initializeDriver(DriverFactory.java:24)
+at base.BaseTest.setup(BaseTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="userCanSortProductsByPriceLowToHigh()[pri:0, instance:tests.InventoryTest@6c40365c]" started-at="2026-04-09T20:06:02 IST" name="userCanSortProductsByPriceLowToHigh" description="Users should be able to sort products from low to high price." finished-at="2026-04-09T20:06:02 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to find a free port]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to find a free port
+at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:138)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at utils.DriverFactory.initializeDriver(DriverFactory.java:24)
+at base.BaseTest.setup(BaseTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanSortProductsByPriceLowToHigh -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.InventoryTest@6c40365c]" started-at="2026-04-09T20:06:02 IST" name="teardown" finished-at="2026-04-09T20:06:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.InventoryTest -->
+      <class name="tests.CheckoutAndMenuTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.CheckoutAndMenuTest@131ef10]" started-at="2026-04-09T20:06:02 IST" name="setup" finished-at="2026-04-09T20:06:02 IST" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to find a free port]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to find a free port
+at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:138)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at utils.DriverFactory.initializeDriver(DriverFactory.java:24)
+at base.BaseTest.setup(BaseTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="userCanCompleteCheckoutSuccessfully()[pri:0, instance:tests.CheckoutAndMenuTest@131ef10]" started-at="2026-04-09T20:06:02 IST" name="userCanCompleteCheckoutSuccessfully" description="Users should be able to complete checkout for selected products." finished-at="2026-04-09T20:06:02 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to find a free port]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to find a free port
+at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:138)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at utils.DriverFactory.initializeDriver(DriverFactory.java:24)
+at base.BaseTest.setup(BaseTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanCompleteCheckoutSuccessfully -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.CheckoutAndMenuTest@131ef10]" started-at="2026-04-09T20:06:02 IST" name="teardown" finished-at="2026-04-09T20:06:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.CheckoutAndMenuTest@131ef10]" started-at="2026-04-09T20:06:02 IST" name="setup" finished-at="2026-04-09T20:06:02 IST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to find a free port]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to find a free port
+at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:138)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at utils.DriverFactory.initializeDriver(DriverFactory.java:24)
+at base.BaseTest.setup(BaseTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="userCanLogoutAndReturnToLoginPage()[pri:0, instance:tests.CheckoutAndMenuTest@131ef10]" started-at="2026-04-09T20:06:02 IST" name="userCanLogoutAndReturnToLoginPage" description="Logout should end the session and return the user to the login page." finished-at="2026-04-09T20:06:02 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to find a free port]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to find a free port
+at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:138)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at utils.DriverFactory.initializeDriver(DriverFactory.java:24)
+at base.BaseTest.setup(BaseTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanLogoutAndReturnToLoginPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.CheckoutAndMenuTest@131ef10]" started-at="2026-04-09T20:06:02 IST" name="teardown" finished-at="2026-04-09T20:06:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.CheckoutAndMenuTest -->
+    </test> <!-- Swag Labs Regression -->
+  </suite> <!-- SwagLabsParallelSuite -->
+</testng-results>

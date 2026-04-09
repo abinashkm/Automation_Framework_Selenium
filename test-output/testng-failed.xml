@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Failed suite [SwagLabsParallelSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="baseUrl" value="https://www.saucedemo.com/"/>
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="3" parallel="classes" name="Swag Labs Regression(failed)">
+    <classes>
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="validLoginShouldNavigateToInventoryPage"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.NegativeFlowTest">
+        <methods>
+          <include name="setup"/>
+          <include name="invalidLoginShouldShowHelpfulError"/>
+          <include name="teardown"/>
+          <include name="checkoutShouldValidateRequiredFields"/>
+        </methods>
+      </class> <!-- tests.NegativeFlowTest -->
+      <class name="tests.CheckoutAndMenuTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="userCanCompleteCheckoutSuccessfully"/>
+          <include name="userCanLogoutAndReturnToLoginPage"/>
+        </methods>
+      </class> <!-- tests.CheckoutAndMenuTest -->
+      <class name="tests.InventoryTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="userCanRemoveProductFromCart"/>
+          <include name="userCanSortProductsByPriceLowToHigh"/>
+          <include name="userCanReviewProductsInCart"/>
+          <include name="userCanAddMultipleProductsToCart"/>
+        </methods>
+      </class> <!-- tests.InventoryTest -->
+    </classes>
+  </test> <!-- Swag Labs Regression(failed) -->
+</suite> <!-- Failed suite [SwagLabsParallelSuite] -->
